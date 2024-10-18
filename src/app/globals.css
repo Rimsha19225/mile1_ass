@@ -30,11 +30,21 @@ h1:hover{
     padding-top: 10rem;
     font-size: 3rem;
   }
+
+  h1:hover{
+    font-size: 3rem;
+    text-shadow: -2px 0 1px #000;
+  }
 }
 
 @media (max-width: 480px) {
   h1 {
-    padding-top: 5rem;
+    padding-top: 7rem;
     font-size: 2rem;
+  }
+
+  h1:hover{
+    font-size: 2rem;
+    text-shadow: -2px 0 1px #000;
   }
 }

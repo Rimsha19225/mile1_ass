@@ -24,3 +24,17 @@ h1:hover{
   color: red;
   text-shadow: -5px -2px 4px #000;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    padding-top: 10rem;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    padding-top: 5rem;
+    font-size: 2rem;
+  }
+}
